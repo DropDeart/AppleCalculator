@@ -1,6 +1,6 @@
-// DOM Elements
+//DOM Elements(Document Object Model)
 const hourEl = document.querySelector('.hour')
-const minuteEl = document.querySelector('.minute')
+const minuteEL = document.querySelector('.minute')
 const valueEl = document.querySelector('.value')
 
 const acEl = document.querySelector('.ac')
@@ -71,7 +71,7 @@ const handleNumberClick = (numStr) => {
     setStrAsValue(currentValueStr + numStr)
   }
 }
-
+//Calculate Operations
 const getResultOfOperationAsStr = () => {
   const currentValueNum = getValueAsNum()
   const valueNumInMemory = parseFloat(valueStrInMemory)

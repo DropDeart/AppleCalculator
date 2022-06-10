@@ -38,9 +38,9 @@
   
   .buttons-container {
     display: grid;
-    grid-gap: 20px;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(5, 1fr);
+    grid-gap: 20px;/*Gridler arası boşluk*/
+    grid-template-columns: repeat(4, 1fr);/*Sütunların boyutunu ve ızgara düzeninde kaç sütun olduğunu belirtir*/
+    grid-template-rows: repeat(5, 1fr);/*Bir ızgara düzeninde satırların boyutunu belirtir*/
   }
   
   .button {
